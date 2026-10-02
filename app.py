@@ -1,9 +1,8 @@
-import streamlit as st
+import streamlit as st 
 import pandas as pd
 import numpy as np
 import joblib
 
-# Load the trained Linear Regression model
 model = joblib.load("models/house_price_model.pkl")
 
 st.title("🏠 House Price Prediction")
